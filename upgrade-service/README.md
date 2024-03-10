@@ -25,7 +25,7 @@ git clone git@github.com:ANA-IBD/studentx.git
 在你的“student”目录中，使用以下命令(Command)获取该任务的文件：
 
 ```bash
-git pull staff main
+git pull staff master
 ```
 
 如果你遇到以下错误：
@@ -41,7 +41,7 @@ fatal: Could not read from remote repository.
 git remote add staff https://github.com/ANA-IBD/student0.git
 ```
 
-然后再次运行`git pull staff main`。
+然后再次运行`git pull staff master`。
 
 之后使用`ls`命令应该能看到一个upgrade-service文件夹。
 
